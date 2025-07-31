@@ -54,8 +54,12 @@ Buat struktur direktori berikut untuk menjaga agar semua file tetap terorganisir
     └── custom_files/
         └── indonesia-latest.osm.pbf  <-- File Peta di sini
     ```
+    file dapat di download pada
+    ```bash
+    https://download.geofabrik.de/asia/indonesia-latest.osm.pbf
+    ```
 
-2.  **Buat File `docker-compose.yml`**: Di dalam direktori utama (`routing_valhalla`), buat file bernama `docker-compose.yml` dan isi dengan konfigurasi berikut.
+3.  **Buat File `docker-compose.yml`**: Di dalam direktori utama (`routing_valhalla`), buat file bernama `docker-compose.yml` dan isi dengan konfigurasi berikut.
 
     ```yaml
     version: '3.8'
